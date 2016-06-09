@@ -1,0 +1,82 @@
+@import "responsive.css";
+
+h1 {
+	margin: 2em 0 1em;
+}
+
+footer {
+	text-align: center;
+	margin-top: 2em;
+}
+
+footer a {
+	color: #c3c3c3;
+	font-size: 0.8em;
+}
+
+#stations {
+	list-style-type: none;
+}
+
+.station {
+	background-color: #eee;
+}
+
+.station > .result > .station-ride {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	padding: 0.5em;
+}
+
+.station > .result > .station-ride:last-child {
+	border: 1px solid #ccc;
+}
+
+.loader {
+	visibility: hidden;
+	font-size: 12pt;
+	color: #c3c3c3;
+	margin-left: 1em;
+}
+
+.close {
+	display: none;
+}
+
+.result {
+	display: none;
+	margin: 1em 0;
+}
+
+.result .row-right {
+	text-align: right;
+}
+
+.result .route {
+	font-size: 1.6em;
+	display: block;
+	margin-top: 0.25em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.result .direction {
+	font-size: 0.8em;
+}
+
+.result .wait {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.result .track {
+	font-size: 0.8em;
+}
+
+.result .time {}
+
+.result .delay {
+	background-color: red;
+	font-weight: bold;
+}
