@@ -1,0 +1,19 @@
+/* Small devices (landscape phones, 34em and up */
+@media (min-width: 34em) {
+}
+
+/* Medium devices (tablets, 48em and up) */
+@media (min-width: 48em) {
+	.result .row-right {
+		text-align: right;
+		padding-top: 1em;
+	}
+}
+
+/* Large devices (desktops, 62em and up) */
+@media (min-width: 62em) {
+}
+
+/* Extra large devices (large desktops, 75em and up) */
+@media (min-width: 75em) {
+}
